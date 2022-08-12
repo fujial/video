@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wait_dialog</class>
+ <widget class="QDialog" name="wait_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pb_joinroom">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>220</y>
+     <width>240</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加入房间</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_createroom">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>120</y>
+     <width>240</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>创建房间</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_return">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>0</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
